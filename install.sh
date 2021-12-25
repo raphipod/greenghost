@@ -37,9 +37,9 @@ ninja -C build
 
 # Create the path to install plugin to
 
-sudo mkdir -p /.config/obs-studio/plugins/nvfbc/bin/64bit/
+sudo mkdir -p /home/$USER/.config/obs-studio/plugins/nvfbc/bin/64bit/
 
 # Copy the compiled .so file to the just-created path.
 
 cd build
-cp nvfbc.so /.config/obs-studio/plugins/nvfbc/bin/64bit/
+sudo cp nvfbc.so /home/$USER/.config/obs-studio/plugins/nvfbc/bin/64bit/
