@@ -7,3 +7,5 @@ Simple script that builds & installs the OBS plugin for nVidia Framebuffer Captu
 Debian-based: libgl-dev | libobs-dev | libsimde-dev | meson | ninja-build
 
 Arch-based: meson | ninja
+
+**IMPORTANT: Run OBS once before executing this script!**
